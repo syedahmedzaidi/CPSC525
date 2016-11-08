@@ -173,13 +173,13 @@ public class MainActivity extends AppCompatActivity implements LockscreenUtils.O
         }
         return false;
     }
-
+	/*
     public void onAttachedToWindow() {
         // TODO Auto-generated method stub
         this.getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD_DIALOG|WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         super.onAttachedToWindow();
-    }
+    }*/
 
     // Lock home button
     public void lockHomeButton() {
